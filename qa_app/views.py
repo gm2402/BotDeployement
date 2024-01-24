@@ -7,7 +7,7 @@ from pandasai.llm.google_palm import GooglePalm
 llm = GooglePalm(api_key="AIzaSyCw3CjCkF4nySicqwkuxob31V65nNlzBwI")
 
 # Load SmartDataframe with the initialized llm
-df2 = SmartDataframe(r'C:\Users\kj\Desktop\GTM\qa_project\qa_app\webpage_data.xlsx', config={"llm": llm})
+df2 = SmartDataframe(r'qa_app\webpage_data.xlsx', config={"llm": llm})
 
 # Set a default question
 default_question = "What is the capital of India"
